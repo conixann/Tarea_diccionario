@@ -27,3 +27,5 @@ while True:
         print("Las unidades deben ser mayor que 0")
     except ValueError:
         print("Ingrese un número válido.")
+
+#Hasta aqui ya esta validado solo me falta que se actualice el inventario y que se muestre el inventario actualizado.
