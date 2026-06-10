@@ -22,10 +22,10 @@ while True:
                 continue
             else:
                 nuevo_stock = stock_disponible - unidades
-                print("Stock disponible!")
+                print(f"""Venta realizada! 
+         Cantidad actualizada {solicitud} > {nuevo_stock}""")
                 break
         print("Las unidades deben ser mayor que 0")
     except ValueError:
         print("Ingrese un número válido.")
-
 #Hasta aqui ya esta validado solo me falta que se actualice el inventario y que se muestre el inventario actualizado.
